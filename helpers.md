@@ -417,6 +417,9 @@ The `Arr::get` method also accepts a default value, which will be returned if th
 
     // 0
 
+> [!WARNING]  
+> The `Arr::get` method will return the entire array if the key passed is `null`.
+
 <a name="method-array-has"></a>
 #### `Arr::has()` {.collection-method}
 
